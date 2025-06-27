@@ -137,16 +137,8 @@ body{
         align-items: center;
     }
 }
-@media (max-width: 680px) {
-    .content{
-        max-width: 80%;
-    }
-    .contato{
-        max-width: 60%;
-        min-width: 40%;
-    }
-}
-@media (max-width: 380px) {
+
+@media (max-width: 400px) {
     .content{
         max-width: 80%;
     }
