@@ -151,6 +151,10 @@ body{
     }
 }
 @media (max-width: 900px) {
+    .butoes{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
      .box{
         max-width: 300px;
     }
@@ -169,6 +173,10 @@ body{
 }
 
 @media (max-width: 460px) {
+    .butoes{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
     .box{
         max-width: 60%;
     }
