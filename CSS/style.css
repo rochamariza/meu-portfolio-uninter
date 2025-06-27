@@ -42,17 +42,30 @@ body{
 }
 .box ul{
     text-indent: 10px;
-    margin-inline: 20px;
+    list-style: disc inside;
 }
-.box a{
+.box .title{
     text-decoration: underline;
     color: black;
     font-size: 30px;
     text-align: center;
 }
-
-.websites a{
-    font-size: 18px;
+.links{
+    text-decoration: underline;
+    color: black;
+}
+.websites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-inline: 10px;
+}
+.websites ul{
+    text-indent: 10px;
+    list-style: disc inside;
+    text-align: justify;
 }
 .contato{
     border-radius: 15px;
@@ -145,5 +158,8 @@ body{
     .contato{
         max-width: 56%;
         min-width: 40%;
+    }
+    .links p{
+        text-align: justify;
     }
 }
