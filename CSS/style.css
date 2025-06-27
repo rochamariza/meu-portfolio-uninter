@@ -24,6 +24,25 @@ body{
     height: 1.5px;
     margin: 20px;
 }
+.butoes{
+    display: flex;
+    gap: 20px;
+}
+.butoes button{
+    border: 2px solid rgba(0, 255, 0, 1);
+    padding: 15px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 30px;
+    background-color: black;
+    color: rgba(0, 255, 0, 1);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.butoes button:hover{
+    background-color: rgba(0, 255, 0, 1);
+    color: black;
+}
 .content{
     display: flex;
     gap: 60px;
@@ -75,9 +94,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    margin: 30px;
-    gap: 15px;
-    text-align: justify;
     max-width: 250px;
     text-align: center;
 }
@@ -112,6 +128,7 @@ body{
     padding: 10px;
     font-family: "Jersey 10", sans-serif;
     font-size: 16px;
+    text-align: justify;
 }
 .contato form  input[type="submit"]{
     background-color: rgba(0, 255, 0, 1);

@@ -8,9 +8,16 @@
     <link rel="shortcut icon" href="IMGS/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    
     <div class="line"></div>
+    <div class="butoes">
+        <button onclick="mudarLink('pag1')">Sobre Mim</button>
+        <button onclick="mudarLink('pag2')">Educação e Idiomas</button>
+        <button onclick="mudarLink('pag3')">Portfólio</button>
+        <button onclick="mudarLink('pag4')">Contato</button>
+    </div>
     <div class="content">
-        <div class="box">
+        <div class="box box1">
             <a href="#" class="title">Sobre Mim</a>
             <p>Meu nome é Mariza, tenho 21 anos, pretendo seguir carreira de desenvolvimento Front-End ou Dados. Comecei a me interessar em tecnologia desde ver um computador pela primeira vez e desde então sonho em trabalhar com isso.<br>Meus Hobbies: </p>
             <ul class="hobbies">
@@ -21,7 +28,7 @@
                 <li>Assistir Sitcoms</li>
             </ul>
         </div>
-        <div class="box">
+        <div class="box box2">
             <a href="#" class="title">Educação e Idiomas</a>
             <p>Ensino Médio - Colégio e Curso Desafio - 2022</p>
             <p>Análise e Desenvolviento de Sistemas - Uninter - 2027</p>
@@ -31,7 +38,7 @@
                 <li>Inglês - Avançado</li>
                 <li>Chinês - Básico</li>
         </div>
-        <div class="box">
+        <div class="box box3">
             <a href="#" class="title">Portfólio</a>
             <p>Websites já criados por mim: </p>
             <div class="websites">
@@ -45,7 +52,7 @@
             </div>
         </div>
     </div>   
-    <div class="contato">
+    <div class="contato box4">
         <h1>Contato</h1>
         <form>
             <label for="nome">Nome: </label><input type="text" name="nome" id="nome">
@@ -55,5 +62,6 @@
         </form>
     </div>
     <div class="line"></div>
+    <script src="JS/index.js"></script>
 </body>
 </html>
