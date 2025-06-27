@@ -139,11 +139,11 @@ body{
 }
 
 @media (max-width: 450px) {
-    .content{
-        max-width: 80%;
+    .box{
+        max-width: 60%;
     }
     .contato{
-        max-width: 60%;
+        max-width: 56%;
         min-width: 40%;
     }
 }
