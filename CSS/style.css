@@ -42,7 +42,7 @@ body{
 }
 .box ul{
     text-indent: 10px;
-    margin-left: 20px;
+    margin-inline: 20px;
 }
 .box a{
     text-decoration: underline;
@@ -138,7 +138,7 @@ body{
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
     .box{
         max-width: 60%;
     }
